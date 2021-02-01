@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="jetblueScenarious.getdeletedstationinfoAPI">
+        <methods>
+          <include name="getdeletedstationinfo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- jetblueScenarious.getdeletedstationinfoAPI -->
+      <class name="jetblueScenarious.getstationinfoAPI">
+        <methods>
+          <include name="getstationinfo"/>
+        </methods>
+      </class> <!-- jetblueScenarious.getstationinfoAPI -->
+      <class name="jetblueScenarious.deletestationAPI">
+        <methods>
+          <include name="deletestation"/>
+        </methods>
+      </class> <!-- jetblueScenarious.deletestationAPI -->
+      <class name="jetblueScenarious.AddstationAPI">
+        <methods>
+          <include name="Addstation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- jetblueScenarious.AddstationAPI -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

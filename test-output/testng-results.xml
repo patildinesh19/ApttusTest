@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28083" started-at="2021-02-01T17:23:31Z" finished-at="2021-02-01T17:23:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28083" started-at="2021-02-01T17:23:31Z" finished-at="2021-02-01T17:23:59Z">
+      <class name="jetblueScenarious.Scenario1">
+        <test-method status="PASS" signature="launchautomationpractice()[pri:0, instance:jetblueScenarious.Scenario1@91161c7]" name="launchautomationpractice" duration-ms="10319" started-at="2021-02-01T22:53:31Z" finished-at="2021-02-01T22:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchautomationpractice -->
+        <test-method status="PASS" signature="loginintoautomationpractice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:jetblueScenarious.Scenario1@91161c7]" name="loginintoautomationpractice" duration-ms="7158" started-at="2021-02-01T22:53:41Z" data-provider="Logindetails" finished-at="2021-02-01T22:53:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jetblue@grr.la]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jetblue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dinesh patil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginintoautomationpractice -->
+        <test-method status="PASS" signature="selectcategoryandproduct(java.lang.String, java.lang.String)[pri:0, instance:jetblueScenarious.Scenario1@91161c7]" name="selectcategoryandproduct" duration-ms="6122" started-at="2021-02-01T22:53:49Z" data-provider="category&amp;productname" finished-at="2021-02-01T22:53:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T-SHIRTS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectcategoryandproduct -->
+        <test-method status="PASS" signature="additemtocart()[pri:0, instance:jetblueScenarious.Scenario1@91161c7]" name="additemtocart" duration-ms="67" started-at="2021-02-01T22:53:55Z" finished-at="2021-02-01T22:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additemtocart -->
+        <test-method status="PASS" signature="verifyaddtocardproduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:jetblueScenarious.Scenario1@91161c7]" name="verifyaddtocardproduct" duration-ms="3674" started-at="2021-02-01T22:53:55Z" data-provider="verifyaddedproductdetails" finished-at="2021-02-01T22:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Product successfully added to your shopping cart]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Orange, S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[$16.51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddtocardproduct -->
+        <test-method status="PASS" signature="quitebrowser()[pri:0, instance:jetblueScenarious.Scenario1@91161c7]" name="quitebrowser" is-config="true" duration-ms="708" started-at="2021-02-01T22:53:58Z" finished-at="2021-02-01T22:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitebrowser -->
+      </class> <!-- jetblueScenarious.Scenario1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
